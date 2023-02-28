@@ -14,7 +14,7 @@ class _DemoCheckBoxState extends State<DemoCheckBox> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: EdgeInsets.only(top: 50.0),
+        padding: const EdgeInsets.only(top: 50.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -27,8 +27,8 @@ class _DemoCheckBoxState extends State<DemoCheckBox> {
               },
             ),
             CheckboxListTile(
-              title: Text('Checkbox'),
-              secondary: Icon(Icons.check),
+              title: const Text('Checkbox'),
+              secondary: const Icon(Icons.check),
               value: isCheckedSecond,
               onChanged: (bool? value) {
                 setState(() {
