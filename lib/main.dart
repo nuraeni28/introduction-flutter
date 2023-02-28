@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:introduction_flutter/demo_fab.dart';
 import 'package:introduction_flutter/demo_stack.dart';
 import 'package:introduction_flutter/demo_card.dart';
 import 'package:introduction_flutter/demo_expanded.dart';
@@ -20,6 +21,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const DemoStack());
+        home: const DemoFAB());
   }
 }
