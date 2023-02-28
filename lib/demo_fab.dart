@@ -14,8 +14,8 @@ class DemoFAB extends StatelessWidget {
                 onPressed: () {}, child: const Icon(Icons.navigation)),
             FloatingActionButton.extended(
               onPressed: () {},
-              label: Text('Approve'),
-              icon: Icon(Icons.thumb_up),
+              label: const Text('Approve'),
+              icon: const Icon(Icons.thumb_up),
             )
           ],
         ),

@@ -10,7 +10,7 @@ class DemoStack extends StatelessWidget {
         child: Stack(
           children: [
             Image.asset('assets/pantai.jpg'),
-            Positioned(
+            const Positioned(
                 top: 30.0,
                 right: 20.0,
                 child: Text(

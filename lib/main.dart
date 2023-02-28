@@ -5,6 +5,7 @@ import 'package:introduction_flutter/demo_card.dart';
 import 'package:introduction_flutter/demo_expanded.dart';
 import 'package:introduction_flutter/demo_sizedbox.dart';
 import 'package:introduction_flutter/demo_snack_bar.dart';
+import 'package:introduction_flutter/demo_text_field.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,6 +22,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const DemoFAB());
+        home: const DemoTextField());
   }
 }
