@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:introduction_flutter/demo_stack.dart';
+import 'package:introduction_flutter/demo_card.dart';
+import 'package:introduction_flutter/demo_expanded.dart';
 import 'package:introduction_flutter/demo_sizedbox.dart';
+import 'package:introduction_flutter/demo_snack_bar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,6 +20,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const DemoSizedBox());
+        home: const DemoStack());
   }
 }
